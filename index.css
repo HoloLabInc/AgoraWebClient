@@ -1,0 +1,99 @@
+.sso-hidden {
+  display: block;
+}
+
+.banner {
+  padding: 0;
+  background-color: #52575c;
+  color: white;
+}
+
+.banner-text {
+  padding: 8px 20px;
+  margin: 0;
+}
+
+
+#join-form {
+  margin-top: 10px;
+}
+
+.tips {
+  font-size: 12px;
+  margin-bottom: 2px;
+  color: gray;
+}
+
+.join-info-text {
+  margin-bottom: 2px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.player {
+  width: 480px;
+  height: 320px;
+}
+
+.player-name {
+  margin: 8px 0;
+}
+
+#pre-local-player {
+  width: 240px;
+  height: 180px;
+}
+
+#success-alert,
+#success-alert-with-token {
+  display: none;
+}
+
+#device-wrapper {
+  margin-top: 12px;
+  display: none;
+  justify-content: space-between;
+}
+
+.progress {
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  transition-duration: .3s;
+}
+
+#device-wrapper .input-group {
+  flex-basis: 49%;
+}
+
+.card.demo-card {
+  margin-bottom: 15px;
+  flex: 0 0 350px;
+}
+
+@media (max-width: 1440px) {
+  .player {
+    width: 640px;
+    height: 480px;
+  }
+}
+
+.button-group {
+  margin-top: 15px;
+  /* 20pxの上マージンを追加 */
+}
+
+.fullscreen-info {
+  font-size: 14px;
+  /* テキストのサイズを指定 */
+  color: #666;
+  /* テキストの色を指定 */
+  margin-top: 15px;
+  /* 上部のマージンを追加 */
+  text-align: left;
+  /* テキストを中央揃えにする */
+}
